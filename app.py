@@ -110,13 +110,14 @@ def buildModelW2V(documents):
 # Procesamiento del input ingresado al chat por el usuario
 def get_hotwords(text):
     result = []
-    pos_tag = ['PROPN', 'NOUN'] 
+    pos_tag = ['PROPN', 'NOUN', 'ADJ'] 
     doc = nlp(text.lower()) 
     for token in doc:
         if(token.text in nlp.Defaults.stop_words or token.text in punctuation):
             continue
         if(token.pos_ in pos_tag):
-            result.append(token.text)
+            result.append(token.lemma_)
+            #result.append(token.text)
     return result
 
 def processingInput(input):
