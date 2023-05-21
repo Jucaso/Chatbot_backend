@@ -9,4 +9,5 @@ defined technique (Cosine Similarity).
 
 The framework used for this development was Flask. Additionally, the libraries used included SpaCy, Pandas, Sklearn, and Gensim.
 
-It is important to note that the application is in Spanish language.
+It is important to note that the application is in Spanish language. Additionally, if you want to check the frontend side, here is it:
+https://github.com/Jucaso/chatbot_frontend
