@@ -8,3 +8,5 @@ constructing recommendation model (Average Word2Vec), and sending the best recom
 defined technique (Cosine Similarity). 
 
 The framework used for this development was Flask. Additionally, the libraries used included SpaCy, Pandas, Sklearn, and Gensim.
+
+It is important to note that the application is in Spanish language.
